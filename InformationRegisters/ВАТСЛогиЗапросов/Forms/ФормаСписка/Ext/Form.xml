@@ -92,6 +92,16 @@
 					<ContextMenu name="МетодКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="МетодРасширеннаяПодсказка" id="27"/>
 				</LabelField>
+				<LabelField name="time" id="34">
+					<DataPath>Список.time</DataPath>
+					<ContextMenu name="timeКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="timeРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="state" id="37">
+					<DataPath>Список.state</DataPath>
+					<ContextMenu name="stateКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="stateРасширеннаяПодсказка" id="39"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

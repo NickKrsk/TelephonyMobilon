@@ -24,6 +24,10 @@
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.ИндексПиктограммы</RowPictureDataPath>
+			<RowsPicture>
+				<xr:Ref>CommonPicture.КоллекцияСобытий</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</RowsPicture>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -79,6 +83,11 @@
 				<Event name="BeforeRowChange">СписокПередНачаломИзменения</Event>
 			</Events>
 			<ChildItems>
+				<LabelField name="Тип" id="57">
+					<DataPath>Список.Тип</DataPath>
+					<ContextMenu name="ТипКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="59"/>
+				</LabelField>
 				<LabelField name="ДатаЗвонка" id="22">
 					<DataPath>Список.ДатаЗвонка</DataPath>
 					<DefaultItem>true</DefaultItem>
@@ -86,42 +95,55 @@
 					<ContextMenu name="ДатаЗвонкаКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ДатаЗвонкаРасширеннаяПодсказка" id="24"/>
 				</LabelField>
-				<LabelField name="Тип" id="57">
-					<DataPath>Список.Тип</DataPath>
-					<ContextMenu name="ТипКонтекстноеМеню" id="58"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="59"/>
-				</LabelField>
 				<CheckBoxField name="Отвечен" id="54">
 					<DataPath>Список.Отвечен</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОтвеченКонтекстноеМеню" id="55"/>
 					<ExtendedTooltip name="ОтвеченРасширеннаяПодсказка" id="56"/>
 				</CheckBoxField>
-				<LabelField name="СНомера" id="25">
-					<DataPath>Список.СНомера</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<Width>20</Width>
-					<ContextMenu name="СНомераКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="СНомераРасширеннаяПодсказка" id="27"/>
+				<ColumnGroup name="Группа1" id="63">
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<LabelField name="СНомера" id="25">
+							<DataPath>Список.СНомера</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Width>20</Width>
+							<ContextMenu name="СНомераКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="СНомераРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+						<LabelField name="НаНомер" id="31">
+							<DataPath>Список.НаНомер</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Width>20</Width>
+							<ContextMenu name="НаНомерКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="НаНомерРасширеннаяПодсказка" id="33"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<LabelField name="duration" id="51">
+					<DataPath>Список.duration</DataPath>
+					<Width>10</Width>
+					<ContextMenu name="durationКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="durationРасширеннаяПодсказка" id="53"/>
 				</LabelField>
-				<LabelField name="НаНомер" id="31">
-					<DataPath>Список.НаНомер</DataPath>
+				<LabelField name="Объект" id="16">
+					<DataPath>Список.Объект</DataPath>
+					<Visible>false</Visible>
 					<DefaultItem>true</DefaultItem>
-					<Width>20</Width>
-					<ContextMenu name="НаНомерКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="НаНомерРасширеннаяПодсказка" id="33"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбъектКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Пользователь" id="34">
 					<DataPath>Список.Пользователь</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ПользовательКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="36"/>
-				</LabelField>
-				<LabelField name="duration" id="51">
-					<DataPath>Список.duration</DataPath>
-					<Width>10</Width>
-					<ContextMenu name="durationКонтекстноеМеню" id="52"/>
-					<ExtendedTooltip name="durationРасширеннаяПодсказка" id="53"/>
 				</LabelField>
 				<LabelField name="callstatus" id="28">
 					<DataPath>Список.callstatus</DataPath>
@@ -130,10 +152,23 @@
 					<ContextMenu name="callstatusКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="callstatusРасширеннаяПодсказка" id="30"/>
 				</LabelField>
+				<LabelField name="ЗаписьРазговора" id="65">
+					<DataPath>Список.ЗаписьРазговора</DataPath>
+					<TextColor>#3366FF</TextColor>
+					<ContextMenu name="ЗаписьРазговораКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ЗаписьРазговораРасширеннаяПодсказка" id="67"/>
+				</LabelField>
 				<LabelField name="recordUrl" id="40">
 					<DataPath>Список.recordUrl</DataPath>
 					<Visible>false</Visible>
 					<DefaultItem>true</DefaultItem>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запись разговора</v8:content>
+						</v8:item>
+					</Title>
+					<TextColor>#0000FF</TextColor>
 					<ContextMenu name="recordUrlКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="recordUrlРасширеннаяПодсказка" id="42"/>
 				</LabelField>
@@ -153,6 +188,7 @@
 				</LabelField>
 				<PictureField name="КартинкаОбъект" id="60">
 					<DataPath>Список.КартинкаОбъект</DataPath>
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -163,13 +199,6 @@
 					<ContextMenu name="КартинкаОбъектКонтекстноеМеню" id="61"/>
 					<ExtendedTooltip name="КартинкаОбъектРасширеннаяПодсказка" id="62"/>
 				</PictureField>
-				<LabelField name="Объект" id="16">
-					<DataPath>Список.Объект</DataPath>
-					<Visible>false</Visible>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="ОбъектКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="18"/>
-				</LabelField>
 				<LabelField name="uuid" id="19">
 					<DataPath>Список.uuid</DataPath>
 					<Visible>false</Visible>
@@ -230,7 +259,12 @@
 		КОГДА ВАТСжурналЗвонков.Объект &lt;&gt; НЕОПРЕДЕЛЕНО
 			ТОГДА 6
 		ИНАЧЕ -1
-	КОНЕЦ КАК КартинкаОбъект
+	КОНЕЦ КАК КартинкаОбъект,
+	ВЫБОР
+		КОГДА (ВЫРАЗИТЬ(ВАТСжурналЗвонков.recordUrl КАК СТРОКА(1))) = ""
+			ТОГДА ""
+		ИНАЧЕ "Прослушать"
+	КОНЕЦ КАК ЗаписьРазговора
 ИЗ
 	РегистрСведений.ВАТСжурналЗвонков КАК ВАТСжурналЗвонков</QueryText>
 				<MainTable>InformationRegister.ВАТСжурналЗвонков</MainTable>

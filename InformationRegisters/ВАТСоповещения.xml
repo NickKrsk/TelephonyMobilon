@@ -36,13 +36,13 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ВАТСоповещения</v8:content>
+					<v8:content>Оповещения (ВАТС)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Оповещения от ВАТС для показа пользователям</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
+			<DefaultRecordForm>InformationRegister.ВАТСоповещения.Form.ФормаЗаписи</DefaultRecordForm>
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
@@ -150,10 +150,10 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Запись обработана</v8:content>
+							<v8:content>Processed</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Запись обработана</Comment>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -189,7 +189,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата</v8:content>
+							<v8:content>Date</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -310,6 +310,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
+			<Form>ФормаЗаписи</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

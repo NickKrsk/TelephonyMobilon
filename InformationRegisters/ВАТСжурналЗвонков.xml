@@ -305,7 +305,7 @@
 							<v8:content>Callstatus</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Статус завершенного звонка, приходит при HANGUP. Значения: ANSWER или пусто</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -473,7 +473,7 @@
 							<v8:content>State</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Состояние звонка (что сейчас со звонком). Значения: START, PREANSWER, IVR, ANSWER, HANGUP</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -648,8 +648,8 @@
 					</Synonym>
 					<Comment>Объект, связанный со звонком</Comment>
 					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
-						<v8:Type>cfg:TaskRef.ЗадачиПользователя</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

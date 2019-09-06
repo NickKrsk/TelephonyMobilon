@@ -36,10 +36,10 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
+			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NamePrefix>Мобилон</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_13</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -53,24 +53,44 @@
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
-			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_13</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ТелефонияМобилон</Subsystem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
+			<CommonPicture>СостояниеПроверкиКонтрагента</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<CommonPicture>КрасныйЖелтыйСерыйТреугольник</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>Внимание16</CommonPicture>
+			<CommonPicture>ВниманиеКрасный</CommonPicture>
+			<CommonPicture>ВниманиеСерый</CommonPicture>
+			<CommonPicture>КоллекцияСобытий</CommonPicture>
+			<CommonPicture>МобилонЧБ</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<CommonModule>ВАТСКлиентГлобальный</CommonModule>
 			<CommonModule>ВАТСКлиент</CommonModule>
 			<CommonModule>ВАТССервер</CommonModule>
 			<WebService>VATScalls</WebService>
+			<DefinedType>КонтрагентБИП</DefinedType>
+			<DefinedType>КонтрагентБЭД</DefinedType>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>ВАТСКонстанты</Catalog>
+			<Catalog>Партнеры</Catalog>
+			<Enum>СостоянияКонтрагентаБЭД</Enum>
+			<Enum>СостоянияСуществованияКонтрагента</Enum>
+			<Enum>ЮрФизЛицо</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<DataProcessor>ТестВызова</DataProcessor>
 			<DataProcessor>ВходящийЗвонок</DataProcessor>
 			<InformationRegister>ВАТСоповещения</InformationRegister>
 			<InformationRegister>ВАТСЛогиЗапросов</InformationRegister>
 			<InformationRegister>ВАТСжурналЗвонков</InformationRegister>
-			<Task>ЗадачиПользователя</Task>
+			<InformationRegister>ВАТСДополнительныеПараметрыПользователей</InformationRegister>
+			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
+			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

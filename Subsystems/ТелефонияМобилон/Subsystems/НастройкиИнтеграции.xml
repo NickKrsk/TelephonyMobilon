@@ -18,6 +18,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестВызова</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВАТСоповещения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВАТСЛогиЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВАТСДополнительныеПараметрыПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВАТСКонстанты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

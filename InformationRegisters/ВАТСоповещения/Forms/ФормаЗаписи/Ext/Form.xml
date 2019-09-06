@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<LabelField name="id" id="1">
+			<DataPath>Запись.id</DataPath>
+			<ContextMenu name="idКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="idРасширеннаяПодсказка" id="3"/>
+		</LabelField>
+		<InputField name="user" id="4">
+			<DataPath>Запись.user</DataPath>
+			<ContextMenu name="userКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="userРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="numFrom" id="7">
+			<DataPath>Запись.numFrom</DataPath>
+			<ContextMenu name="numFromКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="numFromРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<CheckBoxField name="processed" id="10">
+			<DataPath>Запись.processed</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="processedКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="processedРасширеннаяПодсказка" id="12"/>
+		</CheckBoxField>
+		<InputField name="date" id="13">
+			<DataPath>Запись.date</DataPath>
+			<ContextMenu name="dateКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="dateРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="state" id="16">
+			<DataPath>Запись.state</DataPath>
+			<ContextMenu name="stateКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="stateРасширеннаяПодсказка" id="18"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ВАТСоповещения</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
