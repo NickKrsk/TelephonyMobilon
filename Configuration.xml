@@ -68,6 +68,9 @@
 			<CommonPicture>ВниманиеСерый</CommonPicture>
 			<CommonPicture>КоллекцияСобытий</CommonPicture>
 			<CommonPicture>МобилонЧБ</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>ДлительнаяОперация16</CommonPicture>
+			<CommonPicture>Предупреждение</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<CommonModule>ВАТСКлиентГлобальный</CommonModule>
 			<CommonModule>ВАТСКлиент</CommonModule>
@@ -79,6 +82,7 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ВАТСКонстанты</Catalog>
 			<Catalog>Партнеры</Catalog>
+			<Catalog>СтраныМира</Catalog>
 			<Enum>СостоянияКонтрагентаБЭД</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
 			<Enum>ЮрФизЛицо</Enum>

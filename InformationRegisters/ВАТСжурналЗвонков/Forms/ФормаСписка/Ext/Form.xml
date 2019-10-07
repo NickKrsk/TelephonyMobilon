@@ -128,7 +128,6 @@
 				</LabelField>
 				<LabelField name="Объект" id="16">
 					<DataPath>Список.Объект</DataPath>
-					<Visible>false</Visible>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>
