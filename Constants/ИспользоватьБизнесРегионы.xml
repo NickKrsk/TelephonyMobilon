@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="a8e86674-fb1e-4fec-a71f-b3179b9e5eb1">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьБизнесРегионы" category="Manager">
+				<xr:TypeId>f939266a-29d6-4c1f-8d58-2ce77292343b</xr:TypeId>
+				<xr:ValueId>211f37f8-5669-45b9-8b63-c9226383002b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьБизнесРегионы" category="ValueManager">
+				<xr:TypeId>5764f335-2b21-4e99-94a1-a49ee02c0578</xr:TypeId>
+				<xr:ValueId>db6772f2-c1db-4ad7-bb88-169beec0bbda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьБизнесРегионы" category="ValueKey">
+				<xr:TypeId>f8071fed-443e-4f42-813e-e7d28ee87c22</xr:TypeId>
+				<xr:ValueId>72eeb4ed-c5b2-4484-b718-0f212d094d9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьБизнесРегионы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

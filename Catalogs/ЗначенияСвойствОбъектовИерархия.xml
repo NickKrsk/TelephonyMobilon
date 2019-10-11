@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="5a868804-30fc-4795-9631-ecdd91a49f41">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗначенияСвойствОбъектовИерархия" category="Object">
+				<xr:TypeId>7922995a-3e7e-4834-b22a-1a0c861ff081</xr:TypeId>
+				<xr:ValueId>2544156b-b911-4d38-bc8b-3b5cd328ae68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗначенияСвойствОбъектовИерархия" category="Ref">
+				<xr:TypeId>dcbbb4e7-c0c4-4d15-a5d9-8cf8fd5e30c4</xr:TypeId>
+				<xr:ValueId>33a53ba5-0fd2-4de6-b3a5-60a8c1b1f34d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗначенияСвойствОбъектовИерархия" category="Selection">
+				<xr:TypeId>0d1be1c0-8538-4efb-971c-d58a901f0c37</xr:TypeId>
+				<xr:ValueId>1f3063b1-7643-480f-8a1f-0bf7bc9c0418</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗначенияСвойствОбъектовИерархия" category="List">
+				<xr:TypeId>6f0a8485-a927-4e25-99a0-3f4a7a427a90</xr:TypeId>
+				<xr:ValueId>dfe40c85-0549-4b0a-b597-da30f240a9af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗначенияСвойствОбъектовИерархия" category="Manager">
+				<xr:TypeId>7f4657a8-9ba6-4edf-acfc-d2bf91d9a4fd</xr:TypeId>
+				<xr:ValueId>60bca515-eaaf-4d8f-837b-8f31011ab5a1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗначенияСвойствОбъектовИерархия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -10,6 +10,13 @@
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаПозвонитьМобилон" id="39">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПозвонитьМобилон</CommandName>
+				<ExtendedTooltip name="ФормаПозвонитьМобилонРасширеннаяПодсказка" id="40"/>
+			</Button>
+		</ChildItems>
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -52,7 +59,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Контрагент</v8:content>
+					<v8:content>Создать партнера</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -63,6 +70,22 @@
 			</ToolTip>
 			<Action>Контрагент</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПозвонитьМобилон" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позвонить (Мобилон)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позвонить мобилон</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПозвонитьМобилон</Action>
+			<Action>МобилонПозвонитьМобилонПосле</Action>
 		</Command>
 	</Commands>
 </Form>

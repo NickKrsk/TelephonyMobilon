@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="f2a30b07-52d8-4455-9bfe-871e1d69d66c">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьСегментыПартнеров" category="Manager">
+				<xr:TypeId>f02fdc96-f780-4f6b-88f0-cc00ef74b96a</xr:TypeId>
+				<xr:ValueId>6307e932-afdb-4333-b9b6-fbec7314b975</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьСегментыПартнеров" category="ValueManager">
+				<xr:TypeId>531b635b-7673-4424-a8f3-4aa3d5b5d267</xr:TypeId>
+				<xr:ValueId>187f2cbb-ed69-45b6-b000-c40a066b0c7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьСегментыПартнеров" category="ValueKey">
+				<xr:TypeId>9cb6d621-3216-4ec0-83a2-0a4d2f0d83df</xr:TypeId>
+				<xr:ValueId>4442d4e5-4cb4-496d-a9f6-30b7397d6b6d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьСегментыПартнеров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

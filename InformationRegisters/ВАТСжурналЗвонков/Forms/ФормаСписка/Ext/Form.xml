@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПозвонитьМобилон" id="78">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПозвонитьМобилон</CommandName>
+				<ExtendedTooltip name="ФормаПозвонитьМобилонРасширеннаяПодсказка" id="79"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -88,19 +96,41 @@
 					<ContextMenu name="ТипКонтекстноеМеню" id="58"/>
 					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="59"/>
 				</LabelField>
-				<LabelField name="ДатаЗвонка" id="22">
-					<DataPath>Список.ДатаЗвонка</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<Width>10</Width>
-					<ContextMenu name="ДатаЗвонкаКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ДатаЗвонкаРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<CheckBoxField name="Отвечен" id="54">
-					<DataPath>Список.Отвечен</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ОтвеченКонтекстноеМеню" id="55"/>
-					<ExtendedTooltip name="ОтвеченРасширеннаяПодсказка" id="56"/>
-				</CheckBoxField>
+				<ColumnGroup name="Группа3" id="73">
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="74"/>
+					<ChildItems>
+						<CheckBoxField name="Отвечен" id="54">
+							<DataPath>Список.Отвечен</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтвеченКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ОтвеченРасширеннаяПодсказка" id="56"/>
+						</CheckBoxField>
+						<LabelField name="ЗаписьРазговора" id="65">
+							<DataPath>Список.ЗаписьРазговора</DataPath>
+							<TextColor>#3366FF</TextColor>
+							<ContextMenu name="ЗаписьРазговораКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="ЗаписьРазговораРасширеннаяПодсказка" id="67"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Группа2" id="71">
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<LabelField name="ДатаЗвонка" id="22">
+							<DataPath>Список.ДатаЗвонка</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Width>10</Width>
+							<ContextMenu name="ДатаЗвонкаКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ДатаЗвонкаРасширеннаяПодсказка" id="24"/>
+						</LabelField>
+						<LabelField name="duration" id="51">
+							<DataPath>Список.duration</DataPath>
+							<Width>10</Width>
+							<ContextMenu name="durationКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="durationРасширеннаяПодсказка" id="53"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
 				<ColumnGroup name="Группа1" id="63">
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="64"/>
 					<ChildItems>
@@ -120,19 +150,13 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<LabelField name="duration" id="51">
-					<DataPath>Список.duration</DataPath>
-					<Width>10</Width>
-					<ContextMenu name="durationКонтекстноеМеню" id="52"/>
-					<ExtendedTooltip name="durationРасширеннаяПодсказка" id="53"/>
-				</LabelField>
 				<LabelField name="Объект" id="16">
 					<DataPath>Список.Объект</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контрагент</v8:content>
+							<v8:content>Партнер</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ОбъектКонтекстноеМеню" id="17"/>
@@ -151,11 +175,15 @@
 					<ContextMenu name="callstatusКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="callstatusРасширеннаяПодсказка" id="30"/>
 				</LabelField>
-				<LabelField name="ЗаписьРазговора" id="65">
-					<DataPath>Список.ЗаписьРазговора</DataPath>
-					<TextColor>#3366FF</TextColor>
-					<ContextMenu name="ЗаписьРазговораКонтекстноеМеню" id="66"/>
-					<ExtendedTooltip name="ЗаписьРазговораРасширеннаяПодсказка" id="67"/>
+				<LabelField name="Комментарий" id="75">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="77"/>
+				</LabelField>
+				<LabelField name="Документ" id="68">
+					<DataPath>Список.Документ</DataPath>
+					<ContextMenu name="ДокументКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="70"/>
 				</LabelField>
 				<LabelField name="recordUrl" id="40">
 					<DataPath>Список.recordUrl</DataPath>
@@ -263,7 +291,9 @@
 		КОГДА (ВЫРАЗИТЬ(ВАТСжурналЗвонков.recordUrl КАК СТРОКА(1))) = ""
 			ТОГДА ""
 		ИНАЧЕ "Прослушать"
-	КОНЕЦ КАК ЗаписьРазговора
+	КОНЕЦ КАК ЗаписьРазговора,
+	ВАТСжурналЗвонков.Документ КАК Документ,
+	ВАТСжурналЗвонков.Документ.Комментарий КАК Комментарий
 ИЗ
 	РегистрСведений.ВАТСжурналЗвонков КАК ВАТСжурналЗвонков</QueryText>
 				<MainTable>InformationRegister.ВАТСжурналЗвонков</MainTable>
@@ -302,6 +332,22 @@
 			</ToolTip>
 			<Action>ПрослушатьЗапись</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПозвонитьМобилон" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позвонить (Мобилон)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позвонить мобилон</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПозвонитьМобилон</Action>
+			<Action>МобилонПозвонитьМобилонПосле</Action>
 		</Command>
 	</Commands>
 </Form>

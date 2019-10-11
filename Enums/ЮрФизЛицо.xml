@@ -19,6 +19,13 @@
 			<Name>ЮрФизЛицо</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="445e9b07-3992-46a4-ac3d-9a72428a0efa">
+				<Properties>
+					<Name>ЮрЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

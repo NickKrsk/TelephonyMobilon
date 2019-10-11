@@ -5,6 +5,11 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
+			<Button name="ФормаПоказатьЗвонки" id="348">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПоказатьЗвонки</CommandName>
+				<ExtendedTooltip name="ФормаПоказатьЗвонкиРасширеннаяПодсказка" id="349"/>
+			</Button>
 			<Popup name="ПодменюСоздатьНаОсновании" id="337">
 				<Title>
 					<v8:item>
@@ -155,11 +160,6 @@
 				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ПроверитьКонтрагента</CommandName>
 				<ExtendedTooltip name="ФормаПроверитьКонтрагентаРасширеннаяПодсказка" id="196"/>
-			</Button>
-			<Button name="ФормаПоказатьЗвонки" id="348">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ПоказатьЗвонки</CommandName>
-				<ExtendedTooltip name="ФормаПоказатьЗвонкиРасширеннаяПодсказка" id="349"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>

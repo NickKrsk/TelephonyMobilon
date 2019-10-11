@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="a7fbdb49-8858-4fe4-b14a-38f04d392c84">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ФиксироватьПервичныйИнтерес" category="Manager">
+				<xr:TypeId>c9dc9f19-30e7-4f83-bb6f-4ca1a71bd9b6</xr:TypeId>
+				<xr:ValueId>6d7812a3-70b2-4ab3-a8ec-d77a7b5be087</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ФиксироватьПервичныйИнтерес" category="ValueManager">
+				<xr:TypeId>779a611c-40e2-4093-972e-03503ab05a9f</xr:TypeId>
+				<xr:ValueId>c37c87dd-de9a-4ff0-b647-736a0bcfcd2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ФиксироватьПервичныйИнтерес" category="ValueKey">
+				<xr:TypeId>c4b55588-92f8-4265-bdc5-401701c38c8e</xr:TypeId>
+				<xr:ValueId>7bc2d862-a492-4382-9b7a-5a4cdd8f6e27</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФиксироватьПервичныйИнтерес</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="8a949b57-fe0a-4153-ac0c-cefc278c7470">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьЗапретОтгрузки" category="Manager">
+				<xr:TypeId>50e5e0ec-f742-49cf-b657-954d6d032cfe</xr:TypeId>
+				<xr:ValueId>f726a727-3a40-4833-b85c-69cae9852944</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьЗапретОтгрузки" category="ValueManager">
+				<xr:TypeId>1b869042-966f-4f8d-a43b-acaf01e836a9</xr:TypeId>
+				<xr:ValueId>8acc3c9e-43d2-4efb-8969-fb6ff67c4352</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьЗапретОтгрузки" category="ValueKey">
+				<xr:TypeId>3274101f-decc-4765-a2be-234edc3aff4a</xr:TypeId>
+				<xr:ValueId>82eda6b3-2c30-4868-9f17-9c2d13002800</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьЗапретОтгрузки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

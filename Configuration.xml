@@ -71,22 +71,76 @@
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>ДлительнаяОперация16</CommonPicture>
 			<CommonPicture>Предупреждение</CommonPicture>
+			<CommonPicture>ОтгрузкаРазрешена</CommonPicture>
+			<CommonPicture>ОтгрузкаЗапрещена</CommonPicture>
+			<CommonPicture>ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</CommonPicture>
+			<CommonPicture>ЗагрузитьXMLФайлВИнформационнуюБазу</CommonPicture>
+			<CommonPicture>ВидыНавигацииПоВзаимодействиямОтКатегорий</CommonPicture>
+			<CommonPicture>ДополнительныеСведения</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<CommonModule>ВАТСКлиентГлобальный</CommonModule>
 			<CommonModule>ВАТСКлиент</CommonModule>
 			<CommonModule>ВАТССервер</CommonModule>
 			<WebService>VATScalls</WebService>
+			<FunctionalOption>ИспользоватьЗапретОтгрузки</FunctionalOption>
+			<FunctionalOption>ФиксироватьПервичныйИнтерес</FunctionalOption>
+			<FunctionalOption>ИспользоватьВалютныеПлатежи</FunctionalOption>
+			<FunctionalOption>ИспользоватьБизнесРегионы</FunctionalOption>
+			<FunctionalOption>ИспользоватьПолнотекстовыйПоиск</FunctionalOption>
+			<FunctionalOption>ИспользоватьГруппыДоступаПартнеров</FunctionalOption>
+			<FunctionalOption>ИспользоватьСегментыПартнеров</FunctionalOption>
+			<FunctionalOption>ИспользоватьПартнеровИКонтрагентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьУправлениеДоступом</FunctionalOption>
+			<FunctionalOption>ИспользоватьПризнакРассмотрено</FunctionalOption>
 			<DefinedType>КонтрагентБИП</DefinedType>
 			<DefinedType>КонтрагентБЭД</DefinedType>
+			<DefinedType>ПредметВзаимодействия</DefinedType>
+			<DefinedType>КонтактВзаимодействия</DefinedType>
+			<Constant>ИспользоватьЗапретОтгрузки</Constant>
+			<Constant>ФиксироватьПервичныйИнтерес</Constant>
+			<Constant>ИспользоватьВалютныеПлатежи</Constant>
+			<Constant>ИспользоватьБизнесРегионы</Constant>
+			<Constant>ИспользоватьПартнеровИКонтрагентов</Constant>
+			<Constant>ИспользоватьПолнотекстовыйПоиск</Constant>
+			<Constant>ИспользоватьГруппыДоступаПартнеров</Constant>
+			<Constant>ИспользоватьСегментыПартнеров</Constant>
+			<Constant>ИспользоватьУправлениеДоступом</Constant>
+			<Constant>ИспользоватьПризнакРассмотрено</Constant>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ВАТСКонстанты</Catalog>
 			<Catalog>Партнеры</Catalog>
 			<Catalog>СтраныМира</Catalog>
+			<Catalog>БизнесРегионы</Catalog>
+			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
+			<Catalog>ГруппыДоступаПартнеров</Catalog>
+			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
+			<Catalog>ВидыКонтактнойИнформации</Catalog>
+			<Catalog>СегментыПартнеров</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ЗначенияСвойствОбъектов</Catalog>
+			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>СтруктураПредприятия</Catalog>
+			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
+			<Catalog>Файлы</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Склады</Catalog>
+			<Document>ТелефонныйЗвонок</Document>
+			<Document>ЭлектронноеПисьмоИсходящее</Document>
+			<Document>Встреча</Document>
+			<Document>ЭлектронноеПисьмоВходящее</Document>
+			<Document>ЗапланированноеВзаимодействие</Document>
 			<Enum>СостоянияКонтрагентаБЭД</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
 			<Enum>ЮрФизЛицо</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>КомпанияЧастноеЛицо</Enum>
+			<Enum>ВариантыОтправкиЭлектронногоЧекаПокупателю</Enum>
+			<Enum>ТипыКонтактнойИнформации</Enum>
+			<Enum>ВариантыВажностиВзаимодействия</Enum>
 			<DataProcessor>ТестВызова</DataProcessor>
 			<DataProcessor>ВходящийЗвонок</DataProcessor>
 			<InformationRegister>ВАТСоповещения</InformationRegister>
@@ -95,6 +149,10 @@
 			<InformationRegister>ВАТСДополнительныеПараметрыПользователей</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
+			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
