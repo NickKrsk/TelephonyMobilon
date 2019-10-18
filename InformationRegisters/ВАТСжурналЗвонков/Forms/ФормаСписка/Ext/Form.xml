@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<ChildItems>
-			<Button name="ФормаПозвонитьМобилон" id="78">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ПозвонитьМобилон</CommandName>
-				<ExtendedTooltip name="ФормаПозвонитьМобилонРасширеннаяПодсказка" id="79"/>
-			</Button>
-		</ChildItems>
-	</AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -33,7 +25,7 @@
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.ИндексПиктограммы</RowPictureDataPath>
 			<RowsPicture>
-				<xr:Ref>CommonPicture.КоллекцияСобытий</xr:Ref>
+				<xr:Ref>CommonPicture.КоллекцияСобытийМобилон</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</RowsPicture>
 			<AutoRefresh>false</AutoRefresh>
@@ -150,18 +142,35 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<LabelField name="Объект" id="16">
-					<DataPath>Список.Объект</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Партнер</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="ОбъектКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="18"/>
-				</LabelField>
+				<ColumnGroup name="Группа4" id="80">
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="81"/>
+					<ChildItems>
+						<LabelField name="Объект" id="16">
+							<DataPath>Список.Объект</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Партнер</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбъектКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="Позвонить" id="82">
+							<DataPath>Список.Позвонить</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content> </v8:content>
+								</v8:item>
+							</Title>
+							<TextColor>#3366FF</TextColor>
+							<ContextMenu name="ПозвонитьКонтекстноеМеню" id="83"/>
+							<ExtendedTooltip name="ПозвонитьРасширеннаяПодсказка" id="84"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
 				<LabelField name="Пользователь" id="34">
 					<DataPath>Список.Пользователь</DataPath>
 					<DefaultItem>true</DefaultItem>
@@ -177,6 +186,9 @@
 				</LabelField>
 				<LabelField name="Комментарий" id="75">
 					<DataPath>Список.Комментарий</DataPath>
+					<Height>1</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>1</MaxHeight>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="76"/>
 					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="77"/>
 				</LabelField>
@@ -226,6 +238,11 @@
 					<ContextMenu name="КартинкаОбъектКонтекстноеМеню" id="61"/>
 					<ExtendedTooltip name="КартинкаОбъектРасширеннаяПодсказка" id="62"/>
 				</PictureField>
+				<LabelField name="utmString" id="85">
+					<DataPath>Список.utmString</DataPath>
+					<ContextMenu name="utmStringКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="utmStringРасширеннаяПодсказка" id="87"/>
+				</LabelField>
 				<LabelField name="uuid" id="19">
 					<DataPath>Список.uuid</DataPath>
 					<Visible>false</Visible>
@@ -293,7 +310,13 @@
 		ИНАЧЕ "Прослушать"
 	КОНЕЦ КАК ЗаписьРазговора,
 	ВАТСжурналЗвонков.Документ КАК Документ,
-	ВАТСжурналЗвонков.Документ.Комментарий КАК Комментарий
+	ВАТСжурналЗвонков.Документ.Комментарий КАК Комментарий,
+	ВЫБОР
+		КОГДА ВАТСжурналЗвонков.Объект &lt;&gt; НЕОПРЕДЕЛЕНО
+			ТОГДА "Позвонить"
+		ИНАЧЕ ""
+	КОНЕЦ КАК Позвонить,
+	ВАТСжурналЗвонков.utmString КАК utmString
 ИЗ
 	РегистрСведений.ВАТСжурналЗвонков КАК ВАТСжурналЗвонков</QueryText>
 				<MainTable>InformationRegister.ВАТСжурналЗвонков</MainTable>
@@ -303,6 +326,10 @@
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаЗвонка</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>

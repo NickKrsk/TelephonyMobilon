@@ -63,6 +63,11 @@
 				<CommandName>Form.Command.СоздатьЗаказКлиента</CommandName>
 				<ExtendedTooltip name="ФормаСоздатьЗаказКлиентаРасширеннаяПодсказка" id="176"/>
 			</Button>
+			<Button name="ФормаПрослушать" id="177">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Прослушать</CommandName>
+				<ExtendedTooltip name="ФормаПрослушатьРасширеннаяПодсказка" id="178"/>
+			</Button>
 			<Popup name="ПодменюОтчеты" id="165">
 				<Title>
 					<v8:item>
@@ -151,6 +156,11 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
+		<Button name="ФормаПозвонитьМобилон" id="179">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПозвонитьМобилон</CommandName>
+			<ExtendedTooltip name="ФормаПозвонитьМобилонРасширеннаяПодсказка" id="180"/>
+		</Button>
 		<UsualGroup name="ГруппаЛево" id="133">
 			<Title>
 				<v8:item>
@@ -633,6 +643,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="After">МобилонСоздатьЗаказКлиентаПосле</Action>
+		</Command>
+		<Command name="Прослушать" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прослушать (Мобилон)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прослушать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">МобилонПрослушатьПосле</Action>
+		</Command>
+		<Command name="ПозвонитьМобилон" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позвонить (Мобилон)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позвонить мобилон</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">МобилонПозвонитьМобилонПосле</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.7">

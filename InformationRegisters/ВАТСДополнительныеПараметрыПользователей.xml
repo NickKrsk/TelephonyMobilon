@@ -108,11 +108,11 @@
 			</Resource>
 			<Resource uuid="d4cc2f01-fe51-467e-83e6-8013f400caa2">
 				<Properties>
-					<Name>ПоказыватьУведомленияПриЗвонках</Name>
+					<Name>ПоказыватьВсплывающиеУведомленияПриЗвонках</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Показывать уведомления при звонках</v8:content>
+							<v8:content>Показывать всплывающие уведомления при звонках</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
