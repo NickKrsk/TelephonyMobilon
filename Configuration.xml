@@ -141,6 +141,7 @@
 			<Enum>ВариантыОтправкиЭлектронногоЧекаПокупателю</Enum>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>ВариантыВажностиВзаимодействия</Enum>
+			<Enum>МобилонОтветственныйЗаПропущенный</Enum>
 			<DataProcessor>ТестВызова</DataProcessor>
 			<DataProcessor>ВходящийЗвонок</DataProcessor>
 			<InformationRegister>ВАТСоповещения</InformationRegister>

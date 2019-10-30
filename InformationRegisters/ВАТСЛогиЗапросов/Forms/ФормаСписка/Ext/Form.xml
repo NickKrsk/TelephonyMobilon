@@ -102,6 +102,16 @@
 					<ContextMenu name="stateКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="stateРасширеннаяПодсказка" id="39"/>
 				</LabelField>
+				<LabelField name="baseid" id="40">
+					<DataPath>Список.baseid</DataPath>
+					<ContextMenu name="baseidКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="baseidРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="subid" id="43">
+					<DataPath>Список.subid</DataPath>
+					<ContextMenu name="subidКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="subidРасширеннаяПодсказка" id="45"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

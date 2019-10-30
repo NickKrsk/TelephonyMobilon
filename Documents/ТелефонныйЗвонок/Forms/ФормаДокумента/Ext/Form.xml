@@ -58,16 +58,33 @@
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ФормаГруппаКомандыФормыРасширеннаяПодсказка" id="162"/>
 			</ButtonGroup>
-			<Button name="ФормаСоздатьЗаказКлиента" id="175">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.СоздатьЗаказКлиента</CommandName>
-				<ExtendedTooltip name="ФормаСоздатьЗаказКлиентаРасширеннаяПодсказка" id="176"/>
-			</Button>
-			<Button name="ФормаПрослушать" id="177">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Прослушать</CommandName>
-				<ExtendedTooltip name="ФормаПрослушатьРасширеннаяПодсказка" id="178"/>
-			</Button>
+			<Popup name="ФормаГруппаМобилон" id="181">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Мобилон</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа мобилон</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ФормаГруппаМобилонРасширеннаяПодсказка" id="182"/>
+				<ChildItems>
+					<Button name="ФормаСоздатьЗаказКлиента" id="175">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СоздатьЗаказКлиента</CommandName>
+						<ExtendedTooltip name="ФормаСоздатьЗаказКлиентаРасширеннаяПодсказка" id="176"/>
+					</Button>
+					<Button name="ФормаПрослушать" id="177">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Прослушать</CommandName>
+						<ExtendedTooltip name="ФормаПрослушатьРасширеннаяПодсказка" id="178"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 			<Popup name="ПодменюОтчеты" id="165">
 				<Title>
 					<v8:item>
@@ -156,11 +173,6 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
-		<Button name="ФормаПозвонитьМобилон" id="179">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ПозвонитьМобилон</CommandName>
-			<ExtendedTooltip name="ФормаПозвонитьМобилонРасширеннаяПодсказка" id="180"/>
-		</Button>
 		<UsualGroup name="ГруппаЛево" id="133">
 			<Title>
 				<v8:item>
@@ -228,21 +240,45 @@
 					<ContextMenu name="АбонентПредставлениеКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="АбонентПредставлениеExtendedTooltip" id="101"/>
 				</InputField>
-				<InputField name="АбонентКакСвязаться" id="7">
-					<DataPath>Объект.АбонентКакСвязаться</DataPath>
+				<UsualGroup name="ГруппаКакСвязаться" id="183">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Как связаться</v8:content>
+							<v8:content>Группа как связаться</v8:content>
 						</v8:item>
 					</Title>
-					<Width>32</Width>
-					<HorizontalStretch>false</HorizontalStretch>
-					<Wrap>false</Wrap>
-					<ChoiceButton>false</ChoiceButton>
-					<ContextMenu name="АбонентКакСвязатьсяКонтекстноеМеню" id="8"/>
-					<ExtendedTooltip name="АбонентКакСвязатьсяExtendedTooltip" id="102"/>
-				</InputField>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа как связаться</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКакСвязатьсяРасширеннаяПодсказка" id="184"/>
+					<ChildItems>
+						<InputField name="АбонентКакСвязаться" id="7">
+							<DataPath>Объект.АбонентКакСвязаться</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Как связаться</v8:content>
+								</v8:item>
+							</Title>
+							<Width>32</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Wrap>false</Wrap>
+							<ChoiceButton>false</ChoiceButton>
+							<ContextMenu name="АбонентКакСвязатьсяКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="АбонентКакСвязатьсяExtendedTooltip" id="102"/>
+						</InputField>
+						<Button name="ФормаПозвонитьМобилон" id="179">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПозвонитьМобилон</CommandName>
+							<ExtendedTooltip name="ФормаПозвонитьМобилонРасширеннаяПодсказка" id="180"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
 				<InputField name="АбонентКонтакт" id="9">
 					<DataPath>Объект.АбонентКонтакт</DataPath>
 					<Title>
