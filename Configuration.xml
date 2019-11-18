@@ -142,6 +142,7 @@
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>ВариантыВажностиВзаимодействия</Enum>
 			<Enum>МобилонОтветственныйЗаПропущенный</Enum>
+			<Enum>МобилонВариантыОтображенияИнформацииОВходящем</Enum>
 			<DataProcessor>ТестВызова</DataProcessor>
 			<DataProcessor>ВходящийЗвонок</DataProcessor>
 			<InformationRegister>ВАТСоповещения</InformationRegister>
