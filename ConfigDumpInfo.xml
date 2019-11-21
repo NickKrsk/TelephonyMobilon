@@ -98,9 +98,9 @@
 		<Metadata name="CommonModule.ВАТСКлиент" id="97bdb64e-72fc-47c8-a8d6-a6398da4326a" configVersion="7232c9f808495460f119f5c286656dfd56b5beba"/>
 		<Metadata name="CommonModule.ВАТСКлиент.Module" id="97bdb64e-72fc-47c8-a8d6-a6398da4326a.0" configVersion="4cac39dcfc9a0bfa65678db00583d912689b5b53"/>
 		<Metadata name="CommonModule.ВАТСКлиентГлобальный" id="7e491fda-8040-48bb-919d-34590ec2f035" configVersion="b768d07233adce8c84791dc9e4f222e76e498c7f"/>
-		<Metadata name="CommonModule.ВАТСКлиентГлобальный.Module" id="7e491fda-8040-48bb-919d-34590ec2f035.0" configVersion="388e0a4a2cf86aa6337c5639f53c44411b12a7f4"/>
+		<Metadata name="CommonModule.ВАТСКлиентГлобальный.Module" id="7e491fda-8040-48bb-919d-34590ec2f035.0" configVersion="d8ca791deced59e3bacbbd5be536c9d4025b11d1"/>
 		<Metadata name="CommonModule.ВАТССервер" id="0c4d806a-b87a-4c7c-9240-4a8f5fffb273" configVersion="c0560e92b3600a0e33dec5a063a072698e0a013f"/>
-		<Metadata name="CommonModule.ВАТССервер.Module" id="0c4d806a-b87a-4c7c-9240-4a8f5fffb273.0" configVersion="05321a6ee4c16f678b90ab2da13e3c4b96f4b4ed"/>
+		<Metadata name="CommonModule.ВАТССервер.Module" id="0c4d806a-b87a-4c7c-9240-4a8f5fffb273.0" configVersion="e721335a349fee5c935d13d2892633a6d04f987b"/>
 		<Metadata name="CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений" id="fdded8f7-18b3-42b0-bb33-8dc88b98dc45" configVersion="6bac12354cdea772ad4cbb46158d27cc877c2973"/>
 		<Metadata name="CommonPicture.ВидыНавигацииПоВзаимодействиямОтКатегорий" id="e757c614-133a-474e-a3cf-805c38ee84ea" configVersion="7f6e7ba18b72d9deca3b95907b098acee3c54bb8"/>
 		<Metadata name="CommonPicture.Внимание16" id="049f3514-6003-44f2-9a2b-e2430e0a48e3" configVersion="91630d2ee460992e327691c18e6602540440d196"/>
@@ -134,12 +134,13 @@
 		<Metadata name="Constant.ИспользоватьСегментыПартнеров" id="f2a30b07-52d8-4455-9bfe-871e1d69d66c" configVersion="8b7a8086aa731bbbf9e45b3204e0f6044339b3ce"/>
 		<Metadata name="Constant.ИспользоватьУправлениеДоступом" id="ce270788-4077-4c54-9156-6d4ace3ce606" configVersion="75f2bd7e41e096ea00c39ef3dfe636f286464579"/>
 		<Metadata name="Constant.ФиксироватьПервичныйИнтерес" id="a7fbdb49-8858-4fe4-b14a-38f04d392c84" configVersion="248ec8648de3515fd3c3c4f64a4e406553064209"/>
-		<Metadata name="DataProcessor.ВходящийЗвонок" id="41137d0a-ee79-4e61-918f-09ba2440805c" configVersion="511b30106366a5414379017a23489fcec3aea72c">
+		<Metadata name="DataProcessor.ВходящийЗвонок" id="41137d0a-ee79-4e61-918f-09ba2440805c" configVersion="ef938adaac72bd8c8064e941bd981d04b125eb77">
 			<Metadata name="DataProcessor.ВходящийЗвонок.Attribute.Контрагент" id="5cac29a0-da59-4445-9cad-728601e7fcd0"/>
 			<Metadata name="DataProcessor.ВходящийЗвонок.Attribute.СНомера" id="9909171a-a8aa-4ca7-9f5c-2cb58b931c0a"/>
+			<Metadata name="DataProcessor.ВходящийЗвонок.Attribute.Источник" id="ec532264-9d1c-4458-bf82-ccf316b3e35e"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ВходящийЗвонок.Form.Форма" id="3c4a8293-7cef-49f1-ae18-d469c9f7fc73" configVersion="1b0b9e9152449e38b18f99004a054d7c6d067ec2"/>
-		<Metadata name="DataProcessor.ВходящийЗвонок.Form.Форма.Form" id="3c4a8293-7cef-49f1-ae18-d469c9f7fc73.0" configVersion="6ee04af16acf04df0adf21762ee88c697c806d54"/>
+		<Metadata name="DataProcessor.ВходящийЗвонок.Form.Форма.Form" id="3c4a8293-7cef-49f1-ae18-d469c9f7fc73.0" configVersion="80f6f0f2702f929351633b668378fea3a14c9b4d"/>
 		<Metadata name="DataProcessor.ТестВызова" id="e6e3f077-d1a2-4548-bd0a-09d68221d8d1" configVersion="70a1f802ce696189559b7e560a87587d5a97c95e">
 			<Metadata name="DataProcessor.ТестВызова.Attribute.Данные" id="c2f3d631-d486-42a7-9d62-e0fe242bcb61"/>
 		</Metadata>
@@ -253,18 +254,19 @@
 		<Metadata name="InformationRegister.ВАТСжурналЗвонков.Form.ФормаСписка" id="4b4c1fc8-3023-481d-a946-20b61efa6ef1" configVersion="75c7cc0e194944dd4c78505377af14300c91423e"/>
 		<Metadata name="InformationRegister.ВАТСжурналЗвонков.Form.ФормаСписка.Form" id="4b4c1fc8-3023-481d-a946-20b61efa6ef1.0" configVersion="2f8df2907b0c934416137334567f330fd139a5f4"/>
 		<Metadata name="InformationRegister.ВАТСжурналЗвонков.ManagerModule" id="5278dd1a-7ff8-452d-9f54-2dac419388ec.2" configVersion="9fad4d2849a0f22b05346131a987f107bdc37f29"/>
-		<Metadata name="InformationRegister.ВАТСоповещения" id="156ed9fe-9e44-41d5-a2f2-b3851a3ca1c6" configVersion="d687ccae4476c99af07f50b2314ee17ba2355793">
+		<Metadata name="InformationRegister.ВАТСоповещения" id="156ed9fe-9e44-41d5-a2f2-b3851a3ca1c6" configVersion="b9c70920daa21917e93bd3ff3757201232410ce3">
 			<Metadata name="InformationRegister.ВАТСоповещения.Resource.user" id="44ff276b-3a52-488d-b4dc-36402c5b96be"/>
 			<Metadata name="InformationRegister.ВАТСоповещения.Resource.processed" id="7075f522-cdc6-44a4-abab-e8dd657cec12"/>
 			<Metadata name="InformationRegister.ВАТСоповещения.Resource.state" id="8b2461c5-79a7-437a-943f-d7dfb6535c43"/>
 			<Metadata name="InformationRegister.ВАТСоповещения.Resource.numFrom" id="918892fc-cc69-43f8-a348-b20fa3d360c4"/>
 			<Metadata name="InformationRegister.ВАТСоповещения.Dimension.id" id="b02c51e3-e89b-421b-836f-079f8aa51a0d"/>
+			<Metadata name="InformationRegister.ВАТСоповещения.Resource.utmString" id="c5d95d9f-2f1e-4e5d-b7c3-63b02901e33a"/>
 			<Metadata name="InformationRegister.ВАТСоповещения.Resource.Объект" id="ddb378c6-0250-49b0-b1db-b389680fbeb7"/>
 			<Metadata name="InformationRegister.ВАТСоповещения.Resource.date" id="e200016b-f8ad-4db0-8b7b-136b0763c219"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ВАТСоповещения.Form.ФормаЗаписи" id="47f13b27-90af-4627-919c-abd7b56c17dc" configVersion="4069d39cf92e8b27d1e615476e7f73a0c9437558"/>
-		<Metadata name="InformationRegister.ВАТСоповещения.Form.ФормаЗаписи.Form" id="47f13b27-90af-4627-919c-abd7b56c17dc.0" configVersion="c655da310d658d2c70b5b6b274028d5b37d15911"/>
-		<Metadata name="InformationRegister.ВАТСоповещения.ManagerModule" id="156ed9fe-9e44-41d5-a2f2-b3851a3ca1c6.2" configVersion="3be4255ecf257bafe6c9fee49d61cae6ca31596d"/>
+		<Metadata name="InformationRegister.ВАТСоповещения.Form.ФормаЗаписи.Form" id="47f13b27-90af-4627-919c-abd7b56c17dc.0" configVersion="568e6b9675d6ec0c678b46b470917395d7260eb7"/>
+		<Metadata name="InformationRegister.ВАТСоповещения.ManagerModule" id="156ed9fe-9e44-41d5-a2f2-b3851a3ca1c6.2" configVersion="c031cbeb96cb22f782b173738c372e3e84e65fe7"/>
 		<Metadata name="InformationRegister.ВАТСоповещения.RecordSetModule" id="156ed9fe-9e44-41d5-a2f2-b3851a3ca1c6.1" configVersion="c96225803d88ebb672f684714d5cce2036366ee3"/>
 		<Metadata name="InformationRegister.СостоянияКонтрагентов" id="0ea9ca63-1761-4e81-8f23-007765cfac73" configVersion="04d02c72619372323b832880b488a3638dc5c24c">
 			<Metadata name="InformationRegister.СостоянияКонтрагентов.Resource.Состояние" id="490b1b19-bc15-46a2-b8d4-d5af520de6bc"/>

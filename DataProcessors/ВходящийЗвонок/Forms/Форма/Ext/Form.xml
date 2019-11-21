@@ -37,6 +37,12 @@
 				<Event name="OnChange">НаНомерПриИзменении</Event>
 			</Events>
 		</LabelField>
+		<LabelField name="Источник" id="41">
+			<DataPath>Объект.Источник</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ИсточникКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="43"/>
+		</LabelField>
 		<Button name="КнопкаКонтрагент" id="37">
 			<Type>Hyperlink</Type>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
